@@ -1,0 +1,109 @@
+*{
+    margin: 10;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Tahoma;    
+}
+
+body
+{
+    background-color: rgb(248, 218, 218);
+}
+
+label
+{
+    font-size: 28px;
+}
+
+.login-form, .contenedor
+{
+    text-align: center;
+    color: rgb(5, 0, 75);
+    width: 300px;
+    font-size:medium;
+    margin: 0 auto;
+}
+
+.login-form h1{
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type="password"],
+.login-form input[type="text"]
+{
+    width: 300px; 
+    padding: 15px;
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.BtnLogin,.BtnRegister
+{
+    color: rgb(0, 100, 130);
+    background: transparent;
+    border: 2px solid rgb(0, 89, 130);
+    border-radius: 150px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    height: max-content;
+}
+
+.BtnLogin:hover,.BtnRegister:hover
+{
+    background-color: rgb(160, 192, 221);
+    color: white;
+}
+
+.register-form, .contenedor
+{
+    text-align: center;
+    color: rgb(5, 0, 75);
+    width: 300px;
+    font-size:medium;
+    margin: 0 auto;
+}
+
+.register-form h1{
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.register-form input[type="password"],
+.register-form input[type="text"]
+{
+    width: 300px; 
+    padding: 15px;
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.BtnCancel,.BtnGuardar[type=submit], .logout, .a-logout, .a-login
+{
+    color: rgb(0, 100, 130);
+    background: transparent;
+    border: 2px solid rgb(0, 89, 130);
+    border-radius: 150px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    height: max-content;
+}
+
+.BtnCancel:hover,.BtnGuardar:hover, .a-logout, .-a-login
+{
+    background-color: rgb(160, 192, 221);
+    color: white;
+}
